@@ -35,10 +35,6 @@ h2 {
     h1 {
         font-size: 25px;
     }
-
-    h2 {
-        font-size: 20px;
-    }
 }
 
 /* header with logo style and position */
@@ -103,7 +99,7 @@ nav a {
 
 /* promotion box */
 
-.promotion {
+.about {
     background-color: #fcfcfc;
     margin: 4% 0% 4% 0%;
     padding: 6% 12% 6% 12%;
@@ -115,89 +111,36 @@ nav a {
     justify-content: space-between;
 }
 
-.promotion article {
+.about article {
     width: 65%;
 }
 
-.promotion img {
-    width: 200px;
+.about img {
+    width: 250px;
 }
 
 @media (max-width: 1340px) {
-    .promotion img {
+    .about img {
         width: 150px;
     }
 }
 
 @media (max-width: 1005px) {
-    .promotion img {
+    .about img {
         width: 120px;
     }
 }
 
 @media (max-width: 835px) {
-    .promotion {
+    .about {
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .promotion article {
+    .about article {
         text-align: center;
         padding-bottom: 3%;
-    }
-}
-
-/* company info boxes */
-
-.company-info {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin: 2% 0% 4% 0%;
-}
-
-.info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    background-color: #fcfcfc;
-    border-radius: 60px;
-    box-shadow: 0px 0px 15px 0px #d6d6d6;
-    width: 18%;
-    padding: 4% 6% 4% 6%;
-    height: 320px;
-    max-height: 460px;
-}
-
-.info-1 img {
-    max-height: 120px;
-}
-
-.info-2 img {
-    max-height: 120px;
-}
-
-.info-3 img {
-    max-height: 120px;
-}
-
-@media (max-width: 1005px) {
-    .info img {
-        height: 100px;
-    }
-}
-
-@media (max-width: 835px) {
-    .company-info {
-        flex-direction: column;
-    }
-
-    .info {
-        width: 90%;
-        margin-bottom: 5%;
     }
 }
 
